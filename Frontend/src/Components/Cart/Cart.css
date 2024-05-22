@@ -1,0 +1,132 @@
+.cart{
+   margin: 120px 250px;
+   /* margin-top: 150px; */
+}
+.cart hr {
+    width: auto;
+    padding-bottom: 1px;
+    height: 2px;
+    background: rgb(167, 167, 167);
+    border: 0;
+}
+.cart-format-main{
+    /* padding: 10px; */
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr;
+    gap: 10px;
+    color: rgb(64, 64, 64);
+    font-size: 16px;
+    font-weight: 600;
+ }
+ 
+.cart-format-main p{
+    padding: 6px;
+    background-color: #f0ffea;
+    border: 1px solid #d1d1d1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-format{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr;
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ 
+ .grid{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+.cart-format hr {
+    width: auto;
+    /* padding-bottom:-12px; */
+    height: 2px;
+    background: rgb(215, 215, 215);
+}
+.cart-img {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .image {
+    width: 50px;
+    height: auto; 
+   
+  }
+  
+.cart-remove-icon{
+    
+    color: red;
+    cursor: pointer;
+} 
+
+.cart-down{
+    display: flex;
+    margin: 50px 200px;
+}
+.cart-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 100px; */
+    gap: 10px;
+}
+
+.cart-total-item{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2px 0px; */
+}
+
+.cart-total button{
+    width: auto;
+    height: 55px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.cart-promocode{
+    /* flex: 1; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-promocode p{
+    color: #555;
+}
+.cart-promobox{
+    width: 440px;
+    margin-top: 15px;
+    padding-left: 20px;
+    /* padding-top: 20px; */
+    /* height: 58px; */
+    background: #eaeaea;
+}
+.cart-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 300px;
+    /* height: 20px; */
+}
+
+.cart-promobox button{
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    background:black;
+    color: white;
+    cursor: pointer;
+
+}

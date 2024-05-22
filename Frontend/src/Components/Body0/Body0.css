@@ -1,0 +1,126 @@
+.body0 {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/ellipse1.png');
+    background-size: cover; 
+    background-position: center;
+    /* background-repeat: no-repeat;  */
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.body0-text{
+    /* text-align: center; */
+    max-width: 750px;
+    padding-left: 110px;
+}
+
+.body0-text h1{
+    padding-top: 60px;
+     font-size: 40px;
+     font-weight: bold; 
+    }
+
+.body0-text p{
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 500px;
+    padding-top: 20px;
+    /* margin: 10px auto 20px; */
+    line-height: 1.4;
+}
+
+.btnn {
+    background: #35fc32;
+    color: rgb(0, 0, 0);
+    font-weight: bold; 
+    padding: 12px 25px;
+    font-size: 16px;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    /* outline: none;  */
+    
+    box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnn:hover {
+    background: #eedd19;
+    border: #000000;
+}
+
+.body0-img{
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+img{
+    width: 70%;
+    display: flex;
+    /* padding-right: 100px; */
+}
+
+
+
+
+@media(max-width: 850px){
+
+
+    .body0-text h1{
+        font-size: 30px;
+    }
+    .body0-text p{
+        font-size: 16px;
+    }
+    
+    .body0-img{
+        padding-left: 150px;
+        padding-bottom: 10px;
+        }
+        img{
+        width: 80%;
+        display: flex;
+        /* padding-right: 100px; */
+        }
+
+}
+
+
+@media(max-width: 650px){
+
+.body0-text{
+    /* text-align: center; */
+    max-width: 500px;
+    padding-left: 30px;
+}
+
+    .body0-text h1{
+        padding-top: 0px;
+        font-size: 25px;
+        max-width: 400px;
+        margin:auto;
+       
+    }
+    .body0-text p{
+        font-size: 14px;
+        margin:15px auto 30px;
+    }
+    
+    .btnn {
+    padding: 10px 20px;
+    font-size: 14px;
+    }
+    
+    .body0-img{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    }
+    img{
+    width: 90%;
+    display: flex;
+    /* padding-right: 100px; */
+    }
+
+}
