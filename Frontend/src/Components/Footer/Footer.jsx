@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer container'>
     <p>
     Copyright © 2024 SustainX. All rights reserved.
     </p>

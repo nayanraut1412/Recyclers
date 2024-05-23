@@ -3,7 +3,7 @@ import axios from 'axios';
 import "./Cart.css";
 import { MdDeleteForever } from "react-icons/md";
 import logo from '../Cart/recycle.png';
-import { useNavigate } from 'react-router-dom'; // Update this import
+import { useNavigate } from 'react-router-dom'; 
 
 const Cart = ({ cart, setCart }) => {
   const [items, setItems] = useState(cart);
