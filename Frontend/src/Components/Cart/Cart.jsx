@@ -106,10 +106,10 @@ const Cart = ({ cart, setCart }) => {
             <input
               placeholder='Enter Qty'
               type="number"
-              className='form-control pt-2'
+              className='form-control pt-2 input-custom'
               value={item.quantity}
               onChange={(e) => handleQuantityChange(item.id, e)}
-              style={{ width: '100px', fontSize: '13px', height: '35px' }}
+              // style={{ width: '100px', fontSize: '13px', height: '35px' }}
             />
           </div>
           <span className="grid" style={{ paddingTop: '20px' }}>
