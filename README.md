@@ -1,6 +1,5 @@
 Recyclers is third party application for buying the trash of there requirement for product. 
-In this application there is inventary like structure and add to cart option for selecting the items. For payment we have use razorpay api for successful payments.
-
+In this application there is inventary like structure and add to cart option for selecting the items. We have use the Razorpay gateway for payments.
 
 ### 📂 Directory Structure
 ```
